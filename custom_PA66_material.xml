@@ -1,0 +1,2515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MatML_Doc>
+    <Material>
+        <BulkDetails>
+            <Name>custom_PA66</Name>
+            <Class>
+                <Name>PLASTIC</Name>
+            </Class>
+            <Subclass>
+                <Name>Thermoplastic</Name>
+            </Subclass>
+            <PropertyData property="Material Type">
+                <Data format="string">IsotropicMaterial</Data>
+            </PropertyData>
+            <PropertyData property="AltName_0">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="Version_1">
+                <Data format="string">
+                6.0</Data>
+            </PropertyData>
+            <PropertyData property="Description_2">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="ElasticDependencyControl_3">
+                <Data format="integer">
+                3</Data>
+                <Qualifier>Constant</Qualifier>
+            </PropertyData>
+            <PropertyData property="MassDensityConstant_0">
+                <Data format="exponential">
+                1.200000e-06</Data>
+            </PropertyData>
+            <PropertyData property="YoungsModulusConstant_1">
+                <Data format="exponential">
+                3.100000e+03</Data>
+            </PropertyData>
+            <PropertyData property="PoissonsRatioType_4">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Major Poisson's Ratio</Qualifier>
+            </PropertyData>
+            <PropertyData property="PoissonsRatioConstant_2">
+                <Data format="exponential">
+                4.000000e-01</Data>
+            </PropertyData>
+            <PropertyData property="MatlNonlinearityType_5">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Elastoplastic: stress-total strain (MATS1/PLASTIC)</Qualifier>
+            </PropertyData>
+            <PropertyData property="YieldFunctionCriterion_6">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>von Mises</Qualifier>
+            </PropertyData>
+            <PropertyData property="CompressiveTensileyieldRatio_3">
+                <Data format="exponential">
+                1.300000e+00</Data>
+            </PropertyData>
+            <PropertyData property="HardeningRule_7">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="HillRatio11_4">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="HillRatio22_5">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="HillRatio33_6">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="HillRatio12_7">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="HillRatio23_8">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="HillRatio13_9">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="MixedHardeningRatio_10">
+                <Data format="exponential">
+                5.000000e-01</Data>
+            </PropertyData>
+            <PropertyData property="KinematicLaws_8">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Prager (KPRA)</Qualifier>
+            </PropertyData>
+            <PropertyData property="StressStrainFormatType_9">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Stress-Strain Curve</Qualifier>
+            </PropertyData>
+            <PropertyData property="StressStrainDataType_10">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Engineering Stress-Strain</Qualifier>
+            </PropertyData>
+            <PropertyData property="TangentModulusE_11">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="TangentModulusETemperature_12">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="StrainRatedependency_11">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Symonds and Cowper</Qualifier>
+            </PropertyData>
+            <PropertyData property="LSDYNAPlasticfail_12">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>(0) Failure is not considered</Qualifier>
+            </PropertyData>
+            <PropertyData property="LSDYNA_matusr_24_fail_13">
+                <Data format="exponential">
+                -1.000000e+21</Data>
+            </PropertyData>
+            <PropertyData property="LSDYNA_fail_plastic_strain_14">
+                <Data format="exponential">
+                1.000000e+21</Data>
+            </PropertyData>
+            <PropertyData property="EPSThin_15">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="EPSMaj_16">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="EffectivePlasticStrainFS_17">
+                <Data format="exponential">
+                1.000000e+20</Data>
+            </PropertyData>
+            <PropertyData property="FormulationVP_13">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>(0) Scale Yield Effects</Qualifier>
+            </PropertyData>
+            <PropertyData property="PlasticHardeningModulus_18">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="EffectiveFailurePlasticStrain_19">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="LSDYNAPlasticPolymerfailEFTX_14">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>(0) Maximum Tensile Strain</Qualifier>
+            </PropertyData>
+            <PropertyData property="StiffnessDampingRatioDAMP_20">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="FilteringFactorRFAC_21">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RTCLDamageEPS0Option_15">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Inactive</Qualifier>
+            </PropertyData>
+            <PropertyData property="RTCLDamageEPS0_22">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="TransverseShearCompositeDamage_23">
+                <Data format="exponential">
+                9.000000e-01</Data>
+            </PropertyData>
+            <PropertyData property="PoissonsRatioPlastic_24">
+                <Data format="exponential">
+                4.000000e-02</Data>
+            </PropertyData>
+            <PropertyData property="IsotropicSaturatedOption_16">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="BKINStressStrainOption_17">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Rice's Hardening Rule</Qualifier>
+            </PropertyData>
+            <PropertyData property="KINHStressStrainOption_18">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Stress-Strain Curve</Qualifier>
+            </PropertyData>
+            <PropertyData property="ChabocheNonlinearKinematicHardeningOption_19">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="Yield_25">
+                <Data format="exponential">
+                8.200000e+01</Data>
+            </PropertyData>
+            <PropertyData property="AllFailureCriterion_20">
+                <Data format="integer">
+                1</Data>
+            </PropertyData>
+            <PropertyData property="StrengthLimitsFailureCriterion_21">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="StrainRatioFailureCriterion_22">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="StressRatioFailureCriterion_23">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="TsaiWuFailureCriterion_24">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="RiceTraceyFailureCriterion_25">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="MaximumTotalStrainFailureCriterion_26">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="MaximumStressFailureCriterion_27">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="HashinFailureCriterion_28">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="HoffmanFailureCriterion_29">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="TsaiHillFailureCriterion_30">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="PuckFailureCriterion_31">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="LaRC04FailureCriterion_32">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="StressLifeDataFormat_33">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Coefficients</Qualifier>
+            </PropertyData>
+            <PropertyData property="StrainLifeDataFormat_34">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Coefficients</Qualifier>
+            </PropertyData>
+            <PropertyData property="PercentAreaReduction_26">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RRatioType_35">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Specify</Qualifier>
+            </PropertyData>
+            <PropertyData property="RRatio_27">
+                <Data format="exponential">
+                -1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="TestType_36">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Tension</Qualifier>
+            </PropertyData>
+            <PropertyData property="SurvivalProbability_28">
+                <Data format="exponential">
+                5.000000e+01</Data>
+            </PropertyData>
+            <PropertyData property="TSigma90-10_29">
+                <Data format="exponential">
+                1.500000e+00</Data>
+            </PropertyData>
+            <PropertyData property="EnduranceLimitOption_37">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Cycles</Qualifier>
+            </PropertyData>
+            <PropertyData property="ThermalExpansionCoefficientType_38">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Undefined</Qualifier>
+            </PropertyData>
+            <PropertyData property="ThermalExpansionConstant_30">
+                <Data format="exponential">
+                8.000000e-05</Data>
+            </PropertyData>
+            <PropertyData property="ThermalExpansionCoefficientControl2_39">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="ThermalConductivityControl_40">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant or Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="TempConductivityBehaviorType_41">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="ThermalConductivity_31">
+                <Data format="exponential">
+                2.942000e+03</Data>
+            </PropertyData>
+            <PropertyData property="DummyThermalConductivity1_42">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Empty</Qualifier>
+            </PropertyData>
+            <PropertyData property="DummyThermalConductivity2_43">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Empty</Qualifier>
+            </PropertyData>
+            <PropertyData property="DummyThermalConductivity3_44">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Empty</Qualifier>
+            </PropertyData>
+            <PropertyData property="DummyThermalConductivity4_45">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Empty</Qualifier>
+            </PropertyData>
+            <PropertyData property="SpecificHeatControl_46">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant or Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="SpecificHeat_32">
+                <Data format="exponential">
+                1.674000e+09</Data>
+            </PropertyData>
+            <PropertyData property="PhaseChangeType_47">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="LHTEnableScaleFactor_48">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Disabled</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectromagneticFrequency_49">
+                <Data format="integer">
+                2</Data>
+                <Qualifier>Common Electrical</Qualifier>
+            </PropertyData>
+            <PropertyData property="HighFrequencyDielectricModel_50">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Const+Sigma</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectConductivityResistivityMode_51">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Conductivity</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectConductivityMethod_52">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectResistivityMethod_53">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear</Qualifier>
+            </PropertyData>
+            <PropertyData property="PermittivityType_54">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Linear Permittivity</Qualifier>
+            </PropertyData>
+            <PropertyData property="HighFrequencyMagneticModel_55">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Const+Sigma</Qualifier>
+            </PropertyData>
+            <PropertyData property="MagnetType_56">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Soft Magnet</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectroMagnetPermeabilityMethod_57">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear Permeability</Qualifier>
+            </PropertyData>
+            <PropertyData property="PermanentMagnetPermeabilityMethod_58">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear Permeability</Qualifier>
+            </PropertyData>
+            <PropertyData property="PermanentMagnetPermeabilityDependency_59">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant</Qualifier>
+            </PropertyData>
+            <PropertyData property="DemagnetizationSpecification_60">
+                <Data format="integer">
+                1</Data>
+            </PropertyData>
+            <PropertyData property="IronLossMethod_61">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Direct Entry</Qualifier>
+            </PropertyData>
+            <PropertyData property="JilesAthertonScenario_62">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Direct Entry</Qualifier>
+            </PropertyData>
+            <PropertyData property="SpecifyCoercivity_63">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="SpecifyRemanence_64">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="CreepFormulation_65">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>##397None</Qualifier>
+            </PropertyData>
+            <PropertyData property="CreepReferenceTemperature_33">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="TempDependTermType_66">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>exp( -DeltaH / ( R * T0 ))</Qualifier>
+            </PropertyData>
+            <PropertyData property="CreepTemperatureDependence_34">
+                <Data format="exponential">
+                1.000000e-09</Data>
+            </PropertyData>
+            <PropertyData property="CreepThreshold_35">
+                <Data format="exponential">
+                1.000000e-05</Data>
+            </PropertyData>
+            <PropertyData property="CreepHardening_67">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Strain</Qualifier>
+            </PropertyData>
+            <PropertyData property="AnisotropicType_68">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="CreepHillRatio11_36">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CreepHillRatio22_37">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CreepHillRatio33_38">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CreepHillRatio12_39">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CreepHillRatio23_40">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CreepHillRatio13_41">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CheckUnitSystem_69">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>No</Qualifier>
+            </PropertyData>
+            <PropertyData property="ForceLengthMassUnits_70">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>(N)(m)(kg)(s)</Qualifier>
+            </PropertyData>
+            <PropertyData property="TimeHardeningC4Method_71">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Calculate</Qualifier>
+            </PropertyData>
+            <PropertyData property="KelvinMaxwellC1Function_72">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>a * SIGMA ^ b</Qualifier>
+            </PropertyData>
+            <PropertyData property="KelvinMaxwellC2Function_73">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>c * exp( d * SIGMA )</Qualifier>
+            </PropertyData>
+            <PropertyData property="KelvinMaxwellC3Function_74">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>e * [sinh( f * SIGMA )] ^ g</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticDomain_75">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>##397None</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticType_76">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticType2_77">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticTimeDefn_78">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Frequency Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="TimeErrorTolerance_42">
+                <Data format="exponential">
+                1.000000e-02</Data>
+            </PropertyData>
+            <PropertyData property="TimeNMax_79">
+                <Data format="integer">
+                13</Data>
+                <Qualifier>13</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticTimeDefnCreepTestDataFormat_80">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normalized Shear Compliance Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticTimeDefnRelaxTestDataFormat_81">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normalized Shear Relaxation Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="PronyParameterType_82">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Series</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElasticBulkModulus_43">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="ShortTermShearModulusG0_44">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="LongTermShearModulusGI_45">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="DecayConstant_46">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="ViscoelasticFrequencyDefn_83">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Power Formula</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticFrequencyDefn2_84">
+                <Data format="integer">
+                4</Data>
+                <Qualifier>Tabular</Qualifier>
+            </PropertyData>
+            <PropertyData property="FreqErrorTolerance_47">
+                <Data format="exponential">
+                1.000000e-02</Data>
+            </PropertyData>
+            <PropertyData property="FreqNMax_85">
+                <Data format="integer">
+                13</Data>
+                <Qualifier>13</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticFrequencyDefnCreepTestDataFormat_86">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normalized Shear Compliance Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticFrequencyDefnRelaxTestDataFormat_87">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normalized Shear Relaxation Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticPreload_88">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>##397None</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticPreload2_89">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>##397None</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticPronyShiftFunction_90">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="FreqFormulaG1_48">
+                <Data format="exponential">
+                0.000000e+00 , 0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="FreqFormulaK1_49">
+                <Data format="exponential">
+                0.000000e+00 , 0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="ViscoplasticModelType_91">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="JohnsonCookConstantB_50">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="JohnsonCookConstantN_51">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="JohnsonCookConstantC_52">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="EffectiveFailurePlastStrain_53">
+                <Data format="exponential">
+                1.000000e+17</Data>
+            </PropertyData>
+            <PropertyData property="SaturationStress_54">
+                <Data format="exponential">
+                1.000000e+25</Data>
+            </PropertyData>
+            <PropertyData property="QuasiStaticThresholdStrainRate_55">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="DamageModelType_92">
+                <Data format="integer">
+                3</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="ParameterDelay_56">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="TimeDelay_57">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="LinearBehavior_93">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Relative Damaged Poisson's Ratio (mode 1)</Qualifier>
+            </PropertyData>
+            <PropertyData property="PlasticDamageOption_94">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Linear Damage</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonLinearDamageStrainOption_95">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Softening Plastic Strain (EPPF)</Qualifier>
+            </PropertyData>
+            <PropertyData property="EffectivePlasticStrainSoftening_58">
+                <Data format="exponential">
+                1.000000e+12</Data>
+            </PropertyData>
+            <PropertyData property="EffectivePlasticStrainRupture_59">
+                <Data format="exponential">
+                1.000000e+14</Data>
+            </PropertyData>
+            <PropertyData property="RcDcModelAlpha_60">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RcDcModelBeta_61">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RcDcModelGamma_62">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RcDcModelD0_63">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RcDcModelB_64">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RcDcModelLambda_65">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RcDcModelDs_66">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="DynamicViscosityControl_96">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant or Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="PressureCutoff_67">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CoatingsVisualizationColor_68">
+                <Data format="exponential">
+                1.000000e+01 , 1.000000e+01 , 1.000000e+01</Data>
+            </PropertyData>
+            <PropertyData property="CoatingsStudioMaterialName_97">
+                <Data format="string">
+                Nylon</Data>
+            </PropertyData>
+            <PropertyData property="CrosshatchPattern_98">
+                <Data format="string">
+                Rubber/Plastic</Data>
+            </PropertyData>
+            <PropertyData property="ConfigurableProperties_99">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="enableTab1_100">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="Adhesive_101">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATModelType_102">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepThresholdStrain_69">
+                <Data format="exponential">
+                1.000000e-12</Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCheckUnitSystem_103">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>No</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATForceLengthMassUnits_104">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>(N)(m)(kg)</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATModel1_105">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepModel1_106">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATStateVarOutputModel1_107">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepStateVarOutputModel1_108">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATModel2_109">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepModel2_110">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATStateVarOutputModel2_111">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepStateVarOutputModel2_112">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="SamcefUMATModel_113">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="SamcefUMATStateVarOutputModel_114">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData delimiter="," property="SCNastranAppliedViews_115">
+                <Data format="string">
+                mat1,mats1</Data>
+            </PropertyData>
+            <PropertyData property="SCSamcefAppliedViews_116">
+                <Data format="string">
+                SamcefIsotropicStructure</Data>
+            </PropertyData>
+            <PropertyData property="SCThermalFlowAppliedViews_117">
+                <Data format="string">
+                ThermalFlowIsotropic</Data>
+            </PropertyData>
+            <PropertyData property="SCSpaceSystemsThermalAppliedViews_118">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="SCElectronicSystemCoolingAppliedViews_119">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="SCAcousticsBEMAppliedViews_120">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="SCAcousticsTransientBEMAppliedViews_121">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="SCRayAcousticsAppliedViews_122">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="SCNoiseVibrationAppliedViews_123">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData delimiter="," property="SCMagnetAppliedViews_124">
+                <Data format="string">
+                MagnetElectric,MagnetThermal</Data>
+            </PropertyData>
+            <PropertyData property="AbaqusAppliedViews_125">
+                <Data format="string">
+                AbaqusIsotropic</Data>
+            </PropertyData>
+            <PropertyData property="AnsysAppliedViews_126">
+                <Data format="string">
+                AnsysIsotropic</Data>
+            </PropertyData>
+            <PropertyData property="LSDynaAppliedViews_127">
+                <Data format="string">
+                DynaIsotropic</Data>
+            </PropertyData>
+            <PropertyData property="MotionAppliedViews_128">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="HFEMIDSAppliedViews_129">
+                <Data format="string">
+                IDSGalileoElectromagnetic</Data>
+            </PropertyData>
+            <PropertyData property="ModelingAppliedViews_130">
+                <Data format="string">
+                allProperties</Data>
+            </PropertyData>
+            <PropertyData property="SVSensingAppliedViews_131">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NastranViewBasedExport_132">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_Abaqus_HeatGeneration_133">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_Abaqus_ProgressiveFailureTHEORY_134">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_Abaqus_DE_70">
+                <Data format="exponential">
+                1.000000e-01</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_Abaqus_Dv_71">
+                <Data format="exponential">
+                1.000000e-01</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MaterialCardOption_135">
+                <Data format="integer">
+                100</Data>
+                <Qualifier>*MAT_ELASTIC</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_2WAY_136">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Unidirectional</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_TI_137">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Unidirectional</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_SOFT_72">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_YCFAC_73">
+                <Data format="exponential">
+                2.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_DFAILTcheck_138">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>0.0</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MinTimeStepTDEL_74">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NumIntFailShellDelOption_139">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Number</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NumIntFailShellDelNUMINT_140">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NumIntFailShellDelPercentage_75">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_TensionTEROD_76">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_CompressionCEROD_77">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_AdiabaticTempOptionCP_141">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Calculation Disabled</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_InitialAdiabaticTemp_78">
+                <Data format="exponential">
+                -2.731500e+02</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_SpecificHeatAdiabatic_79">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_RTCLAccumulationLimit_142">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>No Limit</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_PrestrainOption_143">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>No Prestrain Added</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_FailureOption_144">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Resultant Based Failure (0)</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_WeldFailureAxialForceNRR_80">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_WeldFailureForceNRS_81">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_WeldFailureForceNRT_82">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_WeldFailureAxialMomentMRR_83">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_WeldFailureMomentMSS_84">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_WeldFailureMomentMTT_85">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NForceVectorsNF_145">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_JointFailureTimeTFAIL_86">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_TimeStepDT_87">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_TFAIL_88">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MaximumAxialStressSIGAX_89">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MaximumShearStressSIGTAU_90">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha1_91">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha2_92">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha3_93">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_CRIT_146">
+                <Data format="integer">
+                54</Data>
+                <Qualifier>Chang-Chang</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_DT_147">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Running average</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_AdditionalDamageOptionToggle_148">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_DamageOption_149">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Plastic Strain based Damage (0)</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_AdditionalDamageOptionFlag_150">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Plastic Strain based Damage (0)</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NHistVarFailureParameterFVAL_151">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_StressFailureParameterFVAL_94">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NCyclesFailureParameterFVAL_152">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_StressIntensityFailureParameterFVAL_95">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_WeldAssemblyFailureFlagASFF_153">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Damaged Elements Fail Individually</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_FailureSurfaceRatio_96">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_FailureFunctionLimit_97">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_TrueThicknessOptionsTTOPT_154">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>TRUE_T Behavior of Version R9 and Later (0)</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_SOFT2_98">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_SOFTG_99">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_NCYRED_155">
+                <Data format="integer">
+                1</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MADYMO3DRigidBodyCouplingFlag_156">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normal LS-DYNA Updates</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_RigidEllipsoidID_157">
+                <Data format="integer">
+                1</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_RigidPlaneID_158">
+                <Data format="integer">
+                1</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_CouplingOption_159">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Undeformed Geometry Corresponds to Local MADYMO 5.4 / CAL3D</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_VDASurfaceAlias_160">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MADYMOReferenceNumber_161">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_UpdateFlag_162">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normal LS-DYNA Rigid Body updates</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_RigidBodyNumber_163">
+                <Data format="integer">
+                1</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_TranslationalStiffnessTKR_100">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_TranslationalStiffnessTKS_101">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_TranslationalStiffnessTKT_102">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_RotationalStiffnessRKR_103">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_RotationalStiffnessRKS_104">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_RotationalStiffnessRKT_105">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MaterialAxisOptionAOPT_164">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Locally Orthotropic with Material Axes using Element Nodes</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MACF_165">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>No Change</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonPhysicalProp_LSDyna_MaterialAxisTrackingOption_166">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>A-Axis Rotates with Element</Qualifier>
+            </PropertyData>
+        </BulkDetails>
+    </Material>
+    <Metadata>
+        <PropertyDetails id="MassDensityConstant_0">
+            <Name>MassDensityConstant</Name>
+            <Units description="kilograms per millimeter cubed" name="kg/mm^3">
+                <Unit>
+                    <Name>kg/mm^3</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="YoungsModulusConstant_1">
+            <Name>YoungsModulusConstant</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="PoissonsRatioConstant_2">
+            <Name>PoissonsRatioConstant</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CompressiveTensileyieldRatio_3">
+            <Name>CompressiveTensileyieldRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HillRatio11_4">
+            <Name>HillRatio11</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HillRatio22_5">
+            <Name>HillRatio22</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HillRatio33_6">
+            <Name>HillRatio33</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HillRatio12_7">
+            <Name>HillRatio12</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HillRatio23_8">
+            <Name>HillRatio23</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HillRatio13_9">
+            <Name>HillRatio13</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MixedHardeningRatio_10">
+            <Name>MixedHardeningRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TangentModulusE_11">
+            <Name>TangentModulusE</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="TangentModulusETemperature_12">
+            <Name>TangentModulusETemperature</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="LSDYNA_matusr_24_fail_13">
+            <Name>LSDYNA_matusr_24_fail</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="LSDYNA_fail_plastic_strain_14">
+            <Name>LSDYNA_fail_plastic_strain</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="EPSThin_15">
+            <Name>EPSThin</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="EPSMaj_16">
+            <Name>EPSMaj</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="EffectivePlasticStrainFS_17">
+            <Name>EffectivePlasticStrainFS</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="PlasticHardeningModulus_18">
+            <Name>PlasticHardeningModulus</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="EffectiveFailurePlasticStrain_19">
+            <Name>EffectiveFailurePlasticStrain</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="StiffnessDampingRatioDAMP_20">
+            <Name>StiffnessDampingRatioDAMP</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FilteringFactorRFAC_21">
+            <Name>FilteringFactorRFAC</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RTCLDamageEPS0_22">
+            <Name>RTCLDamageEPS0</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TransverseShearCompositeDamage_23">
+            <Name>TransverseShearCompositeDamage</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="PoissonsRatioPlastic_24">
+            <Name>PoissonsRatioPlastic</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="Yield_25">
+            <Name>Yield</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="PercentAreaReduction_26">
+            <Name>PercentAreaReduction</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RRatio_27">
+            <Name>RRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SurvivalProbability_28">
+            <Name>SurvivalProbability</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TSigma90-10_29">
+            <Name>TSigma90-10</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalExpansionConstant_30">
+            <Name>ThermalExpansionConstant</Name>
+            <Units description="Expansion coefficient per degree Celsius" name="1/dC">
+                <Unit>
+                    <Name>1/dC</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalConductivity_31">
+            <Name>ThermalConductivity</Name>
+            <Units description="microWatts per millimeter per degree Celsius" name="microW/mm-dC">
+                <Unit>
+                    <Name>microW/mm-dC</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="SpecificHeat_32">
+            <Name>SpecificHeat</Name>
+            <Units description="microjoules per kilogram per kelvin" name="microJ/kg-dK">
+                <Unit>
+                    <Name>microJ/kg-dK</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="CreepReferenceTemperature_33">
+            <Name>CreepReferenceTemperature</Name>
+            <Units description="Celsius" name="C">
+                <Unit>
+                    <Name>C</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="CreepTemperatureDependence_34">
+            <Name>CreepTemperatureDependence</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepThreshold_35">
+            <Name>CreepThreshold</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="CreepHillRatio11_36">
+            <Name>CreepHillRatio11</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepHillRatio22_37">
+            <Name>CreepHillRatio22</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepHillRatio33_38">
+            <Name>CreepHillRatio33</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepHillRatio12_39">
+            <Name>CreepHillRatio12</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepHillRatio23_40">
+            <Name>CreepHillRatio23</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepHillRatio13_41">
+            <Name>CreepHillRatio13</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TimeErrorTolerance_42">
+            <Name>TimeErrorTolerance</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElasticBulkModulus_43">
+            <Name>ElasticBulkModulus</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="ShortTermShearModulusG0_44">
+            <Name>ShortTermShearModulusG0</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="LongTermShearModulusGI_45">
+            <Name>LongTermShearModulusGI</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="DecayConstant_46">
+            <Name>DecayConstant</Name>
+            <Units description="per second" name="1/sec">
+                <Unit>
+                    <Name>1/sec</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="FreqErrorTolerance_47">
+            <Name>FreqErrorTolerance</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FreqFormulaG1_48">
+            <Name>FreqFormulaG1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FreqFormulaK1_49">
+            <Name>FreqFormulaK1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="JohnsonCookConstantB_50">
+            <Name>JohnsonCookConstantB</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="JohnsonCookConstantN_51">
+            <Name>JohnsonCookConstantN</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="JohnsonCookConstantC_52">
+            <Name>JohnsonCookConstantC</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="EffectiveFailurePlastStrain_53">
+            <Name>EffectiveFailurePlastStrain</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SaturationStress_54">
+            <Name>SaturationStress</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="QuasiStaticThresholdStrainRate_55">
+            <Name>QuasiStaticThresholdStrainRate</Name>
+            <Units description="per second" name="1/sec">
+                <Unit>
+                    <Name>1/sec</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="ParameterDelay_56">
+            <Name>ParameterDelay</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TimeDelay_57">
+            <Name>TimeDelay</Name>
+            <Units description="seconds" name="sec">
+                <Unit>
+                    <Name>sec</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="EffectivePlasticStrainSoftening_58">
+            <Name>EffectivePlasticStrainSoftening</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="EffectivePlasticStrainRupture_59">
+            <Name>EffectivePlasticStrainRupture</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="RcDcModelAlpha_60">
+            <Name>RcDcModelAlpha</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RcDcModelBeta_61">
+            <Name>RcDcModelBeta</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RcDcModelGamma_62">
+            <Name>RcDcModelGamma</Name>
+            <Units description="millimeters squared per Newton" name="mm^2/N(1/MPa)">
+                <Unit>
+                    <Name>mm^2/N(1/MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="RcDcModelD0_63">
+            <Name>RcDcModelD0</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RcDcModelB_64">
+            <Name>RcDcModelB</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RcDcModelLambda_65">
+            <Name>RcDcModelLambda</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RcDcModelDs_66">
+            <Name>RcDcModelDs</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PressureCutoff_67">
+            <Name>PressureCutoff</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="CoatingsVisualizationColor_68">
+            <Name>CoatingsVisualizationColor</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepThresholdStrain_69">
+            <Name>NxNastranUMATCreepThresholdStrain</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_Abaqus_DE_70">
+            <Name>NonPhysicalProp_Abaqus_DE</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_Abaqus_Dv_71">
+            <Name>NonPhysicalProp_Abaqus_Dv</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_SOFT_72">
+            <Name>NonPhysicalProp_LSDyna_SOFT</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_YCFAC_73">
+            <Name>NonPhysicalProp_LSDyna_YCFAC</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MinTimeStepTDEL_74">
+            <Name>NonPhysicalProp_LSDyna_MinTimeStepTDEL</Name>
+            <Units description="seconds" name="sec">
+                <Unit>
+                    <Name>sec</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NumIntFailShellDelPercentage_75">
+            <Name>NonPhysicalProp_LSDyna_NumIntFailShellDelPercentage</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_TensionTEROD_76">
+            <Name>NonPhysicalProp_LSDyna_TensionTEROD</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_CompressionCEROD_77">
+            <Name>NonPhysicalProp_LSDyna_CompressionCEROD</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_InitialAdiabaticTemp_78">
+            <Name>NonPhysicalProp_LSDyna_InitialAdiabaticTemp</Name>
+            <Units description="Celsius" name="C">
+                <Unit>
+                    <Name>C</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_SpecificHeatAdiabatic_79">
+            <Name>NonPhysicalProp_LSDyna_SpecificHeatAdiabatic</Name>
+            <Units description="joules per kilogram per kelvin" name="J/kg-dK">
+                <Unit>
+                    <Name>J/kg-dK</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_WeldFailureAxialForceNRR_80">
+            <Name>NonPhysicalProp_LSDyna_WeldFailureAxialForceNRR</Name>
+            <Units description="Newtons" name="N">
+                <Unit>
+                    <Name>N</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_WeldFailureForceNRS_81">
+            <Name>NonPhysicalProp_LSDyna_WeldFailureForceNRS</Name>
+            <Units description="Newtons" name="N">
+                <Unit>
+                    <Name>N</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_WeldFailureForceNRT_82">
+            <Name>NonPhysicalProp_LSDyna_WeldFailureForceNRT</Name>
+            <Units description="Newtons" name="N">
+                <Unit>
+                    <Name>N</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_WeldFailureAxialMomentMRR_83">
+            <Name>NonPhysicalProp_LSDyna_WeldFailureAxialMomentMRR</Name>
+            <Units description="Newton millimeters" name="N-mm">
+                <Unit>
+                    <Name>N-mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_WeldFailureMomentMSS_84">
+            <Name>NonPhysicalProp_LSDyna_WeldFailureMomentMSS</Name>
+            <Units description="Newton millimeters" name="N-mm">
+                <Unit>
+                    <Name>N-mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_WeldFailureMomentMTT_85">
+            <Name>NonPhysicalProp_LSDyna_WeldFailureMomentMTT</Name>
+            <Units description="Newton millimeters" name="N-mm">
+                <Unit>
+                    <Name>N-mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_JointFailureTimeTFAIL_86">
+            <Name>NonPhysicalProp_LSDyna_JointFailureTimeTFAIL</Name>
+            <Units description="seconds" name="sec">
+                <Unit>
+                    <Name>sec</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_TimeStepDT_87">
+            <Name>NonPhysicalProp_LSDyna_TimeStepDT</Name>
+            <Units description="seconds" name="sec">
+                <Unit>
+                    <Name>sec</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_TFAIL_88">
+            <Name>NonPhysicalProp_LSDyna_TFAIL</Name>
+            <Units description="seconds" name="sec">
+                <Unit>
+                    <Name>sec</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MaximumAxialStressSIGAX_89">
+            <Name>NonPhysicalProp_LSDyna_MaximumAxialStressSIGAX</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MaximumShearStressSIGTAU_90">
+            <Name>NonPhysicalProp_LSDyna_MaximumShearStressSIGTAU</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha1_91">
+            <Name>NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha2_92">
+            <Name>NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha3_93">
+            <Name>NonPhysicalProp_LSDyna_NotchSressFailureCorrectionFactorAlpha3</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_StressFailureParameterFVAL_94">
+            <Name>NonPhysicalProp_LSDyna_StressFailureParameterFVAL</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_StressIntensityFailureParameterFVAL_95">
+            <Name>NonPhysicalProp_LSDyna_StressIntensityFailureParameterFVAL</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_FailureSurfaceRatio_96">
+            <Name>NonPhysicalProp_LSDyna_FailureSurfaceRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_FailureFunctionLimit_97">
+            <Name>NonPhysicalProp_LSDyna_FailureFunctionLimit</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_SOFT2_98">
+            <Name>NonPhysicalProp_LSDyna_SOFT2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_SOFTG_99">
+            <Name>NonPhysicalProp_LSDyna_SOFTG</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_TranslationalStiffnessTKR_100">
+            <Name>NonPhysicalProp_LSDyna_TranslationalStiffnessTKR</Name>
+            <Units description="Newtons per millimeter" name="N/mm">
+                <Unit>
+                    <Name>N/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_TranslationalStiffnessTKS_101">
+            <Name>NonPhysicalProp_LSDyna_TranslationalStiffnessTKS</Name>
+            <Units description="Newtons per millimeter" name="N/mm">
+                <Unit>
+                    <Name>N/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_TranslationalStiffnessTKT_102">
+            <Name>NonPhysicalProp_LSDyna_TranslationalStiffnessTKT</Name>
+            <Units description="Newtons per millimeter" name="N/mm">
+                <Unit>
+                    <Name>N/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_RotationalStiffnessRKR_103">
+            <Name>NonPhysicalProp_LSDyna_RotationalStiffnessRKR</Name>
+            <Units description="Newton millimeters per degree" name="N-mm/deg">
+                <Unit>
+                    <Name>N-mm/deg</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_RotationalStiffnessRKS_104">
+            <Name>NonPhysicalProp_LSDyna_RotationalStiffnessRKS</Name>
+            <Units description="Newton millimeters per degree" name="N-mm/deg">
+                <Unit>
+                    <Name>N-mm/deg</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_RotationalStiffnessRKT_105">
+            <Name>NonPhysicalProp_LSDyna_RotationalStiffnessRKT</Name>
+            <Units description="Newton millimeters per degree" name="N-mm/deg">
+                <Unit>
+                    <Name>N-mm/deg</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="AltName_0">
+            <Name>AltName</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="Version_1">
+            <Name>Version</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="Description_2">
+            <Name>Description</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElasticDependencyControl_3">
+            <Name>ElasticDependencyControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PoissonsRatioType_4">
+            <Name>PoissonsRatioType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MatlNonlinearityType_5">
+            <Name>MatlNonlinearityType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="YieldFunctionCriterion_6">
+            <Name>YieldFunctionCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HardeningRule_7">
+            <Name>HardeningRule</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KinematicLaws_8">
+            <Name>KinematicLaws</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StressStrainFormatType_9">
+            <Name>StressStrainFormatType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StressStrainDataType_10">
+            <Name>StressStrainDataType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StrainRatedependency_11">
+            <Name>StrainRatedependency</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="LSDYNAPlasticfail_12">
+            <Name>LSDYNAPlasticfail</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FormulationVP_13">
+            <Name>FormulationVP</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="LSDYNAPlasticPolymerfailEFTX_14">
+            <Name>LSDYNAPlasticPolymerfailEFTX</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RTCLDamageEPS0Option_15">
+            <Name>RTCLDamageEPS0Option</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="IsotropicSaturatedOption_16">
+            <Name>IsotropicSaturatedOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="BKINStressStrainOption_17">
+            <Name>BKINStressStrainOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KINHStressStrainOption_18">
+            <Name>KINHStressStrainOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ChabocheNonlinearKinematicHardeningOption_19">
+            <Name>ChabocheNonlinearKinematicHardeningOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="AllFailureCriterion_20">
+            <Name>AllFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StrengthLimitsFailureCriterion_21">
+            <Name>StrengthLimitsFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StrainRatioFailureCriterion_22">
+            <Name>StrainRatioFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StressRatioFailureCriterion_23">
+            <Name>StressRatioFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TsaiWuFailureCriterion_24">
+            <Name>TsaiWuFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RiceTraceyFailureCriterion_25">
+            <Name>RiceTraceyFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MaximumTotalStrainFailureCriterion_26">
+            <Name>MaximumTotalStrainFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MaximumStressFailureCriterion_27">
+            <Name>MaximumStressFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HashinFailureCriterion_28">
+            <Name>HashinFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HoffmanFailureCriterion_29">
+            <Name>HoffmanFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TsaiHillFailureCriterion_30">
+            <Name>TsaiHillFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PuckFailureCriterion_31">
+            <Name>PuckFailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="LaRC04FailureCriterion_32">
+            <Name>LaRC04FailureCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StressLifeDataFormat_33">
+            <Name>StressLifeDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StrainLifeDataFormat_34">
+            <Name>StrainLifeDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RRatioType_35">
+            <Name>RRatioType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TestType_36">
+            <Name>TestType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="EnduranceLimitOption_37">
+            <Name>EnduranceLimitOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalExpansionCoefficientType_38">
+            <Name>ThermalExpansionCoefficientType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalExpansionCoefficientControl2_39">
+            <Name>ThermalExpansionCoefficientControl2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalConductivityControl_40">
+            <Name>ThermalConductivityControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TempConductivityBehaviorType_41">
+            <Name>TempConductivityBehaviorType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DummyThermalConductivity1_42">
+            <Name>DummyThermalConductivity1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DummyThermalConductivity2_43">
+            <Name>DummyThermalConductivity2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DummyThermalConductivity3_44">
+            <Name>DummyThermalConductivity3</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DummyThermalConductivity4_45">
+            <Name>DummyThermalConductivity4</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SpecificHeatControl_46">
+            <Name>SpecificHeatControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PhaseChangeType_47">
+            <Name>PhaseChangeType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="LHTEnableScaleFactor_48">
+            <Name>LHTEnableScaleFactor</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectromagneticFrequency_49">
+            <Name>ElectromagneticFrequency</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HighFrequencyDielectricModel_50">
+            <Name>HighFrequencyDielectricModel</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectConductivityResistivityMode_51">
+            <Name>ElectConductivityResistivityMode</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectConductivityMethod_52">
+            <Name>ElectConductivityMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectResistivityMethod_53">
+            <Name>ElectResistivityMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PermittivityType_54">
+            <Name>PermittivityType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HighFrequencyMagneticModel_55">
+            <Name>HighFrequencyMagneticModel</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MagnetType_56">
+            <Name>MagnetType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectroMagnetPermeabilityMethod_57">
+            <Name>ElectroMagnetPermeabilityMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PermanentMagnetPermeabilityMethod_58">
+            <Name>PermanentMagnetPermeabilityMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PermanentMagnetPermeabilityDependency_59">
+            <Name>PermanentMagnetPermeabilityDependency</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DemagnetizationSpecification_60">
+            <Name>DemagnetizationSpecification</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="IronLossMethod_61">
+            <Name>IronLossMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="JilesAthertonScenario_62">
+            <Name>JilesAthertonScenario</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SpecifyCoercivity_63">
+            <Name>SpecifyCoercivity</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SpecifyRemanence_64">
+            <Name>SpecifyRemanence</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepFormulation_65">
+            <Name>CreepFormulation</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TempDependTermType_66">
+            <Name>TempDependTermType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepHardening_67">
+            <Name>CreepHardening</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="AnisotropicType_68">
+            <Name>AnisotropicType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CheckUnitSystem_69">
+            <Name>CheckUnitSystem</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ForceLengthMassUnits_70">
+            <Name>ForceLengthMassUnits</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TimeHardeningC4Method_71">
+            <Name>TimeHardeningC4Method</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KelvinMaxwellC1Function_72">
+            <Name>KelvinMaxwellC1Function</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KelvinMaxwellC2Function_73">
+            <Name>KelvinMaxwellC2Function</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KelvinMaxwellC3Function_74">
+            <Name>KelvinMaxwellC3Function</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticDomain_75">
+            <Name>ViscoelasticDomain</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticType_76">
+            <Name>ViscoelasticType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticType2_77">
+            <Name>ViscoelasticType2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticTimeDefn_78">
+            <Name>ViscoelasticTimeDefn</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TimeNMax_79">
+            <Name>TimeNMax</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticTimeDefnCreepTestDataFormat_80">
+            <Name>ViscoelasticTimeDefnCreepTestDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticTimeDefnRelaxTestDataFormat_81">
+            <Name>ViscoelasticTimeDefnRelaxTestDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PronyParameterType_82">
+            <Name>PronyParameterType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticFrequencyDefn_83">
+            <Name>ViscoelasticFrequencyDefn</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticFrequencyDefn2_84">
+            <Name>ViscoelasticFrequencyDefn2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FreqNMax_85">
+            <Name>FreqNMax</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticFrequencyDefnCreepTestDataFormat_86">
+            <Name>ViscoelasticFrequencyDefnCreepTestDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticFrequencyDefnRelaxTestDataFormat_87">
+            <Name>ViscoelasticFrequencyDefnRelaxTestDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticPreload_88">
+            <Name>ViscoelasticPreload</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticPreload2_89">
+            <Name>ViscoelasticPreload2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticPronyShiftFunction_90">
+            <Name>ViscoelasticPronyShiftFunction</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoplasticModelType_91">
+            <Name>ViscoplasticModelType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DamageModelType_92">
+            <Name>DamageModelType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="LinearBehavior_93">
+            <Name>LinearBehavior</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PlasticDamageOption_94">
+            <Name>PlasticDamageOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonLinearDamageStrainOption_95">
+            <Name>NonLinearDamageStrainOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DynamicViscosityControl_96">
+            <Name>DynamicViscosityControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CoatingsStudioMaterialName_97">
+            <Name>CoatingsStudioMaterialName</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CrosshatchPattern_98">
+            <Name>CrosshatchPattern</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ConfigurableProperties_99">
+            <Name>ConfigurableProperties</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="enableTab1_100">
+            <Name>enableTab1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="Adhesive_101">
+            <Name>Adhesive</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATModelType_102">
+            <Name>NxNastranUMATModelType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCheckUnitSystem_103">
+            <Name>NxNastranUMATCheckUnitSystem</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATForceLengthMassUnits_104">
+            <Name>NxNastranUMATForceLengthMassUnits</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATModel1_105">
+            <Name>NxNastranUMATModel1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepModel1_106">
+            <Name>NxNastranUMATCreepModel1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATStateVarOutputModel1_107">
+            <Name>NxNastranUMATStateVarOutputModel1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepStateVarOutputModel1_108">
+            <Name>NxNastranUMATCreepStateVarOutputModel1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATModel2_109">
+            <Name>NxNastranUMATModel2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepModel2_110">
+            <Name>NxNastranUMATCreepModel2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATStateVarOutputModel2_111">
+            <Name>NxNastranUMATStateVarOutputModel2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepStateVarOutputModel2_112">
+            <Name>NxNastranUMATCreepStateVarOutputModel2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SamcefUMATModel_113">
+            <Name>SamcefUMATModel</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SamcefUMATStateVarOutputModel_114">
+            <Name>SamcefUMATStateVarOutputModel</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCNastranAppliedViews_115">
+            <Name>SCNastranAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCSamcefAppliedViews_116">
+            <Name>SCSamcefAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCThermalFlowAppliedViews_117">
+            <Name>SCThermalFlowAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCSpaceSystemsThermalAppliedViews_118">
+            <Name>SCSpaceSystemsThermalAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCElectronicSystemCoolingAppliedViews_119">
+            <Name>SCElectronicSystemCoolingAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCAcousticsBEMAppliedViews_120">
+            <Name>SCAcousticsBEMAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCAcousticsTransientBEMAppliedViews_121">
+            <Name>SCAcousticsTransientBEMAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCRayAcousticsAppliedViews_122">
+            <Name>SCRayAcousticsAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCNoiseVibrationAppliedViews_123">
+            <Name>SCNoiseVibrationAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SCMagnetAppliedViews_124">
+            <Name>SCMagnetAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="AbaqusAppliedViews_125">
+            <Name>AbaqusAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="AnsysAppliedViews_126">
+            <Name>AnsysAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="LSDynaAppliedViews_127">
+            <Name>LSDynaAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MotionAppliedViews_128">
+            <Name>MotionAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HFEMIDSAppliedViews_129">
+            <Name>HFEMIDSAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ModelingAppliedViews_130">
+            <Name>ModelingAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SVSensingAppliedViews_131">
+            <Name>SVSensingAppliedViews</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NastranViewBasedExport_132">
+            <Name>NastranViewBasedExport</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_Abaqus_HeatGeneration_133">
+            <Name>NonPhysicalProp_Abaqus_HeatGeneration</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_Abaqus_ProgressiveFailureTHEORY_134">
+            <Name>NonPhysicalProp_Abaqus_ProgressiveFailureTHEORY</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MaterialCardOption_135">
+            <Name>NonPhysicalProp_LSDyna_MaterialCardOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_2WAY_136">
+            <Name>NonPhysicalProp_LSDyna_2WAY</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_TI_137">
+            <Name>NonPhysicalProp_LSDyna_TI</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_DFAILTcheck_138">
+            <Name>NonPhysicalProp_LSDyna_DFAILTcheck</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NumIntFailShellDelOption_139">
+            <Name>NonPhysicalProp_LSDyna_NumIntFailShellDelOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NumIntFailShellDelNUMINT_140">
+            <Name>NonPhysicalProp_LSDyna_NumIntFailShellDelNUMINT</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_AdiabaticTempOptionCP_141">
+            <Name>NonPhysicalProp_LSDyna_AdiabaticTempOptionCP</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_RTCLAccumulationLimit_142">
+            <Name>NonPhysicalProp_LSDyna_RTCLAccumulationLimit</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_PrestrainOption_143">
+            <Name>NonPhysicalProp_LSDyna_PrestrainOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_FailureOption_144">
+            <Name>NonPhysicalProp_LSDyna_FailureOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NForceVectorsNF_145">
+            <Name>NonPhysicalProp_LSDyna_NForceVectorsNF</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_CRIT_146">
+            <Name>NonPhysicalProp_LSDyna_CRIT</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_DT_147">
+            <Name>NonPhysicalProp_LSDyna_DT</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_AdditionalDamageOptionToggle_148">
+            <Name>NonPhysicalProp_LSDyna_AdditionalDamageOptionToggle</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_DamageOption_149">
+            <Name>NonPhysicalProp_LSDyna_DamageOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_AdditionalDamageOptionFlag_150">
+            <Name>NonPhysicalProp_LSDyna_AdditionalDamageOptionFlag</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NHistVarFailureParameterFVAL_151">
+            <Name>NonPhysicalProp_LSDyna_NHistVarFailureParameterFVAL</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NCyclesFailureParameterFVAL_152">
+            <Name>NonPhysicalProp_LSDyna_NCyclesFailureParameterFVAL</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_WeldAssemblyFailureFlagASFF_153">
+            <Name>NonPhysicalProp_LSDyna_WeldAssemblyFailureFlagASFF</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_TrueThicknessOptionsTTOPT_154">
+            <Name>NonPhysicalProp_LSDyna_TrueThicknessOptionsTTOPT</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_NCYRED_155">
+            <Name>NonPhysicalProp_LSDyna_NCYRED</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MADYMO3DRigidBodyCouplingFlag_156">
+            <Name>NonPhysicalProp_LSDyna_MADYMO3DRigidBodyCouplingFlag</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_RigidEllipsoidID_157">
+            <Name>NonPhysicalProp_LSDyna_RigidEllipsoidID</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_RigidPlaneID_158">
+            <Name>NonPhysicalProp_LSDyna_RigidPlaneID</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_CouplingOption_159">
+            <Name>NonPhysicalProp_LSDyna_CouplingOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_VDASurfaceAlias_160">
+            <Name>NonPhysicalProp_LSDyna_VDASurfaceAlias</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MADYMOReferenceNumber_161">
+            <Name>NonPhysicalProp_LSDyna_MADYMOReferenceNumber</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_UpdateFlag_162">
+            <Name>NonPhysicalProp_LSDyna_UpdateFlag</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_RigidBodyNumber_163">
+            <Name>NonPhysicalProp_LSDyna_RigidBodyNumber</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MaterialAxisOptionAOPT_164">
+            <Name>NonPhysicalProp_LSDyna_MaterialAxisOptionAOPT</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MACF_165">
+            <Name>NonPhysicalProp_LSDyna_MACF</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonPhysicalProp_LSDyna_MaterialAxisTrackingOption_166">
+            <Name>NonPhysicalProp_LSDyna_MaterialAxisTrackingOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="Material Type">
+            <Name>MaterialType</Name>
+            <Unitless/>
+        </PropertyDetails>
+    </Metadata>
+</MatML_Doc>
